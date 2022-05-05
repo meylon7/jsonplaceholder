@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "target": "ES5",
+        "module": "es6",
+        "moduleResolution" : "node",
+        "lib": ["DOM","es6"],
+        "sourceMap": true,
+        "jsx": "react",
+        "strict": true,
+        "noImplicitReturns": true,
+        "rootDir":"src",
+        "outDir": "dist",
+        "allowSyntheticDefaultImports": true,
+    },
+    "include":["**/*.ts","**/*.tsx"],
+    "excluding": ["node_modules"]
+}
