@@ -10,9 +10,9 @@
 6. webpack 5.72.0
 
 folders:
---src
-     --components
-     --modules
+###-src
+     ###--components
+     ###--modules
      --services
      --hooks
      --interfaces
