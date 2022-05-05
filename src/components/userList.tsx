@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { useEffect, useState } from 'react';
-import { IUser } from '../models/IUser';
+import { IUser } from '../interfaces/IUser';
 import { UserService } from '../services/UserService';
 import { Table } from 'antd' 
 
@@ -49,7 +49,7 @@ let UserList: React.FC<IProps> = () => {
 
     useEffect(() => {
         setState({ ...state, loading: true });
-        UserService.getAllUsers().then().then((response) => {
+        UserService.getAllUsers().then((response) => {
             setState({
                 ...state,
                 loading: false,
@@ -67,9 +67,13 @@ let UserList: React.FC<IProps> = () => {
 
     let { loading, users, errorMessage } = state;
     return (
-        <div>
-                <h2>User List</h2>
-                <Table dataSource={users} columns={columns} />
+        <div className="main-area">
+                <Table 
+                    dataSource={users} 
+                    columns={columns}
+                    bordered
+                    title={() => 'User List'}
+                    footer={() => 'Any data here'} />
         </div>
     );
 }

@@ -1,5 +1,5 @@
 .site-layout-content {
-    min-height: 280px;
+    height: 480px;
     padding: 0;
     background: #fff;
 }
@@ -44,9 +44,12 @@ nav {
 }
 nav h1 {
   margin-right: auto;
+  color:#fff;
 }
+
 .content {
   max-width: 960px;
+  
   margin: 0 auto;
 }
 .product {
@@ -57,4 +60,11 @@ nav h1 {
 .offers, .products {
   display: flex;
   gap: 20px;
+}
+.main-area{
+  margin:25px
+}
+.site-card-border-less-wrapper {
+  padding: 30px;
+  background: #ececec;
 }
