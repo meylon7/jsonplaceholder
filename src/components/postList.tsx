@@ -1,6 +1,6 @@
 import { Button, Card, Divider, List } from 'antd';
 import React from 'react'
-import { usePosts } from '../services/useGetPosts';
+import { usePosts } from '../services/usePosts';
 import { FetchState } from '../types/types'
 
 type IProps = {}
