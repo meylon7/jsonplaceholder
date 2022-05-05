@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm m.eylon </h1>
-<h3 align="center">A passionate a small frontend project</h3>
+<h3 align="center">Fed UX/UI expert</h3>
 
 - 🔭 I’m currently working on **React with typescript frontend project**
 
@@ -7,7 +7,7 @@
 
 - 📫 How to reach me **meylon@gmail.com**
 
-<h3 align="left">Connect with me:</h3>
+
 <p align="left">
 </p>
 
@@ -24,13 +24,15 @@
 
 folders:<br>
 ### -src<br>
-     ### --components<br>
-     ### --modules<br>
-     ### --services<br>
-     ### --hooks<br>
-     ### --interfaces<br>
-     ### --types<br>
-     ### --pages<br>
+     ### --components
+     ### --modules
+     ### --services
+     ### --hooks
+     ### --interfaces
+     ### --types
+     ### --pages
+
+
 
 
 

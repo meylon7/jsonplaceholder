@@ -1,4 +1,6 @@
 
+// main page using the navigation and router
+
 import React, { Fragment } from 'react'
 import { BrowserRouter, Route, Routes, Link } from 'react-router-dom';
 import { Layout } from 'antd';

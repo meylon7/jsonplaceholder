@@ -1,3 +1,5 @@
+// home page allow navigate to custom hooks
+
 import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useLocalStorage } from '../hooks/useLocalStorage';

@@ -1,3 +1,4 @@
+// custom hook for localStorage u can pass anything to the storage
 import { useState, useEffect } from 'react';
 
 type ReturnType<T> = [

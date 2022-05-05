@@ -1,3 +1,4 @@
+// small Service to handle api action for users using class
 import axios from 'axios'
 
 export class UserService{
