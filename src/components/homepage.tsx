@@ -3,6 +3,7 @@
 import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useLocalStorage } from '../hooks/useLocalStorage';
+import Rating from '../components/rate'
 import { Button, Card } from 'antd';
 
 export interface IHomePageProps { }
@@ -22,6 +23,7 @@ const Homepage: React.FunctionComponent<IHomePageProps> = (props) => {
         <p><Link to="/useListener">useListener hook</Link></p>
         <p><Link to="/todo">Go to the ToDo List Page!</Link></p>
         <p><button onClick={() => navigate('/todo/2')}>Go to todo, with a number</button></p>
+        <Rating />
       </Card>
     </div>
   );
