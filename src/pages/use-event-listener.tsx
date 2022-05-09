@@ -1,3 +1,4 @@
+import { Button } from 'antd';
 import React, { useState } from 'react';
 import useEventListener from '../hooks/useEventListener'
 
@@ -22,13 +23,13 @@ export default function UseEventListener() {
     );
 
     return (
-        <div style={{ height: '110vh' }}>
+        <div className="container" style={{ height: '110vh' }}>
             <h1>useEventListener</h1>
-            <button onClick={() => setEnabled((e) => !e)}>
+            <Button type="primary" onClick={() => setEnabled((e) => !e)}>
                 Enabled: {String(enabled)}
-            </button>
+            </Button>
             <br />
-            <button onClick={() => setCount((c) => c + 1)}>Hello: {count}</button>
+            <Button type="primary" onClick={() => setCount((c) => c + 1)}>Hello: {count}</Button>
         </div>
     );
 }
